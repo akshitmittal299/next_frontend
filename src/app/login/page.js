@@ -54,8 +54,8 @@ export default function Login() {
                 <span className="font-bold text-2xl">NextShop</span>
               </div>
               <p className="text-muted-foreground leading-relaxed max-w-md">
-                Your trusted partner for quality products at unbeatable prices. We're committed to making your shopping
-                experience exceptional.
+                {"Your trusted partner for quality products at unbeatable prices. We're committed to making your shopping"}
+                {"experience exceptional."}
               </p>
               <div className="flex space-x-4">
                 <Button variant="outline" size="icon">

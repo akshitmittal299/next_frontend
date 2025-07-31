@@ -29,10 +29,12 @@ export default function LoginPage() {
       });
 
       const data = await res.json();
-
-      if (!res.ok) throw new Error(data.message || 'Login failed');
+      console.log('Login response:', data);
+      
+      if (!res.ok) throw new Error(data?.detail || 'Login failed');
 
       alert('Login successful');
+      localStorage.setItem('access', data.access);
       router.push('/dashboard');
     } catch (err) {
       setError(err.message);

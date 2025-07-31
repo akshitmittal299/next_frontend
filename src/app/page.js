@@ -88,8 +88,7 @@ export default function EcommerceLanding() {
                                         Live Better
                                     </h1>
                                     <p className="text-xl text-muted-foreground max-w-lg leading-relaxed">
-                                        Discover premium products at unbeatable prices. From fashion to electronics, we've got everything
-                                        you need with fast, free shipping.
+                                        {"Discover premium products at unbeatable prices. From fashion to electronics, we've got everything you need with fast, free shipping."}
                                     </p>
                                 </div>
                                 <div className="flex flex-col sm:flex-row gap-4">
@@ -343,7 +342,7 @@ export default function EcommerceLanding() {
                             <Badge className="w-fit mx-auto">Why Choose Us</Badge>
                             <h2 className="text-3xl md:text-5xl font-bold">Built for Your Success</h2>
                             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-                                We're committed to providing the best shopping experience with unmatched service
+                                {"We're committed to providing the best shopping experience with unmatched service"}
                             </p>
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -430,7 +429,7 @@ export default function EcommerceLanding() {
                             <Badge className="w-fit mx-auto">Testimonials</Badge>
                             <h2 className="text-3xl md:text-5xl font-bold">What Our Customers Say</h2>
                             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-                                Don't just take our word for it - hear from our satisfied customers
+                                {"Don't just take our word for it - hear from our satisfied customers"}
                             </p>
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -467,7 +466,7 @@ export default function EcommerceLanding() {
                                                 <Star key={i} className="h-5 w-5 fill-yellow-400 text-yellow-400" />
                                             ))}
                                         </div>
-                                        <p className="text-muted-foreground italic text-lg leading-relaxed">"{testimonial.content}"</p>
+                                        <p className="text-muted-foreground italic text-lg leading-relaxed">{"testimonial.content"}</p>
                                         <div className="flex items-center space-x-4">
                                             <Image
                                                 src={testimonial.avatar}
@@ -524,8 +523,8 @@ export default function EcommerceLanding() {
                                 <span className="font-bold text-2xl">NextShop</span>
                             </div>
                             <p className="text-muted-foreground leading-relaxed max-w-md">
-                                Your trusted partner for quality products at unbeatable prices. We're committed to making your shopping
-                                experience exceptional.
+                                {"Your trusted partner for quality products at unbeatable prices. We're committed to making your shopping"}
+                                {"experience exceptional."}
                             </p>
                             <div className="flex space-x-4">
                                 <Button variant="outline" size="icon">
