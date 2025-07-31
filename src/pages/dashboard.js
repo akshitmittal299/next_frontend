@@ -10,7 +10,7 @@ export default function Dashboard() {
     const token = localStorage.getItem('access')
     if (!token) return router.push('/login')
 
-    axios.get('http://localhost:8000/api/v1/products/', {
+    axios.get(`${process.env.NEXT_PUBLIC_API_URL}/api/v1/products/`, {
       headers: { Authorization: `Bearer ${token}` }
     }).then(res => setProducts(res.data))
   }, [])
